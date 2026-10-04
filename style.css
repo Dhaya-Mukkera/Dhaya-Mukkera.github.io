@@ -160,3 +160,7 @@ h1, h2, h3 { line-height: 1.2; margin: 0 0 .6rem; }
 .chips--icons li { display: inline-flex; align-items: center; gap: .5rem; }
 .h-logo { display: flex; align-items: center; gap: .7rem; }
 .aws-logo { width: 54px; height: 32px; }
+
+/* DevOps icons use the cyan accent; GitHub icon is a filled glyph */
+.ico--dev { stroke: var(--accent); }
+.ico--fill { fill: var(--accent); stroke: none; }
